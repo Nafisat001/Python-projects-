@@ -1,0 +1,26 @@
+
+# Follow the instructions in the tab to the right
+# Write your mad libs program here
+#my mad libs project creates a short and interesting introduction for sports stars
+
+Name = input("Enter your first name:")
+print(f"Welcome {Name}! let's play a game of madlibs. All you have to do is provide me with words and i'll have a story of yourself ready for you.")
+print("Let's get started!!!")
+
+# request information from users
+Name_of_user= input("Your full name: ")
+age_of_user = input("Your age: ")
+Nationality_of_user = input("your country: ")
+character_of_user = input("what adjective best describes you: ")
+sport_of_user = input("your sport: ")
+training_hours = input("Training hours everyday: ")
+hobby_of_user_1 = input("Give me a hobby: ")
+hobby_of_user_2 = input("Give me another hobby: ")
+
+#program to generate story of sport star using gathered information
+users_story= f"""
+My name is {Name_of_user} , I am from {Nationality_of_user} and I am {age_of_user} years old. I am {character_of_user}. I have always enjoyed watching {sport_of_user} since I was a kid and I decided to take it up. I train for {training_hours} hours every day. I made it to where I am today thanks to hardwork and preseverence. 
+  Whenever I am not training for {sport_of_user}, I am usually {hobby_of_user_1} or {hobby_of_user_2}. I like to mix them into my daily life so it is not all about breaking olympic and world records.
+"""
+
+print(users_story)
